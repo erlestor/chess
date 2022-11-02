@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .piece {
+    @apply w-20 h-20 flex justify-center;
+  }
+}

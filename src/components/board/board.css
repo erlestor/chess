@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .board-container {
+    @apply mx-96 my-8 flex flex-col items-center select-none;
+  }
+
+  .board {
+    @apply w-[640px] flex flex-wrap;
+  }
+
+  .turn-header {
+    @apply text-3xl text-white mb-4;
+  }
+}
